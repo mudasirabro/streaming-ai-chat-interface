@@ -2,6 +2,24 @@
 
 A production-grade, highly resilient streaming AI chat interface built with **Next.js 15 (App Router)**, **Vercel AI SDK**, **Google Gemini Free Tier (with Multi-Provider Architecture)**, **Tailwind CSS**, and **Framer Motion**.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://streaming-ai-chat-interface-xi.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mudasirabro/streaming-ai-chat-interface)
+[![Next.js 15](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![Vercel AI SDK](https://img.shields.io/badge/Vercel%20AI%20SDK-v4-blue?style=for-the-badge)](https://ai-sdk.dev/)
+
+---
+
+## 🌐 Live Preview & Submission Links
+
+- **🚀 Live Preview URL**: [https://streaming-ai-chat-interface-xi.vercel.app/](https://streaming-ai-chat-interface-xi.vercel.app/)
+- **📁 GitHub Repository**: [https://github.com/mudasirabro/streaming-ai-chat-interface](https://github.com/mudasirabro/streaming-ai-chat-interface)
+- **⚡ Streaming Route Handler**: [`src/app/api/chat/route.ts`](https://github.com/mudasirabro/streaming-ai-chat-interface/blob/main/src/app/api/chat/route.ts)
+- **⚙️ Model Configuration Module**: [`src/lib/ai/config.ts`](https://github.com/mudasirabro/streaming-ai-chat-interface/blob/main/src/lib/ai/config.ts)
+- **💬 Primary Chat Component**: [`src/components/chat/ChatContainer.tsx`](https://github.com/mudasirabro/streaming-ai-chat-interface/blob/main/src/components/chat/ChatContainer.tsx)
+- **📜 Auto-Scroll Hook**: [`src/hooks/useAutoScroll.ts`](https://github.com/mudasirabro/streaming-ai-chat-interface/blob/main/src/hooks/useAutoScroll.ts)
+- **🛑 5-State Action Button**: [`src/components/chat/ChatInput.tsx`](https://github.com/mudasirabro/streaming-ai-chat-interface/blob/main/src/components/chat/ChatInput.tsx)
+- **📝 Stream-Safe Markdown**: [`src/components/chat/MarkdownRenderer.tsx`](https://github.com/mudasirabro/streaming-ai-chat-interface/blob/main/src/components/chat/MarkdownRenderer.tsx)
+
 ---
 
 ## 🌟 Key Features & Engineering Highlights
@@ -89,8 +107,8 @@ A production-grade, highly resilient streaming AI chat interface built with **Ne
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone <your-repo-url>
-cd "Streaming AI chat interface"
+git clone https://github.com/mudasirabro/streaming-ai-chat-interface.git
+cd "streaming-ai-chat-interface"
 npm install
 ```
 
